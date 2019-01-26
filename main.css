@@ -1,0 +1,59 @@
+@keyframes name
+{
+  0% {background-color: rgba(255,255,224, 0.4);}
+  25% {background-color: rgba(255,255,224,0.5);}
+  50% {background-color: rgba(255,255,224,0.6);}
+  75% {background-color: rgba(255,255,224,0.7);}
+  100% {background-color: rgba(255,255,224,0.8);}
+}
+body {
+
+    background-color: green;
+
+    }
+  .name
+  {
+    font-style: normal;
+    font-family: sans-serif;
+    animation-name: name;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  p
+  {
+    background-color: rgba(255,255,224, 0.5);
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    font-size:20px;
+    font-style: italic;
+    border-width: thick;
+    border-color: red;
+    text-shadow: 1px 1px 5px yellow,1px 1px 5px red;
+    font-weight: bold;
+    animation-name: name;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width:50%;
+  }
+  h1
+  {
+      background-image:repeating-linear-gradient(to bottom right,slateblue,dodgerblue,slateblue);
+      border-radius: 10px;
+      padding: 5px 5px 5px 5px;
+      width:50%;
+
+  }
+  h2
+  {
+    background-image:repeating-linear-gradient(to bottom right,dodgerblue,slateblue,dodgerblue);
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    width:50%;
+  }
+  img
+  {
+    width:300px;
+    height:400px;
+  }
